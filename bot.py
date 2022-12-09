@@ -22,11 +22,7 @@
 
 import os
 from pyrogram import Client, idle
-
-if bool(os.environ.get("WEBHOOK")):
-    from Uploader.config import Config
-else:
-    from sample_config import Config
+from Uploader.config import Config
 
 import os
 
